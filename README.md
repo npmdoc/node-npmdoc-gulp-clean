@@ -1,11 +1,13 @@
-# api documentation for  [gulp-clean (v0.3.2)](https://github.com/peter-vilja/gulp-clean)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean)
+# api documentation for  [gulp-clean (v0.3.2)](https://github.com/peter-vilja/gulp-clean)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean)
 #### A gulp plugin for removing files and folders.
 
 [![NPM](https://nodei.co/npm/gulp-clean.png?downloads=true)](https://www.npmjs.com/package/gulp-clean)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_clean_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-clean_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
