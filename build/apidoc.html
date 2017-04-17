@@ -61,12 +61,120 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-clean">module gulp-clean</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-clean.gulp-clean">
+            function <span class="apidocSignatureSpan"></span>gulp-clean
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-clean.toString">
+            function <span class="apidocSignatureSpan">gulp-clean.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.gulp-clean.toString">module gulp-clean.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-clean.toString.toString">
+            function <span class="apidocSignatureSpan">gulp-clean.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-clean" id="apidoc.module.gulp-clean">module gulp-clean</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-clean.gulp-clean" id="apidoc.element.gulp-clean.gulp-clean">
+        function <span class="apidocSignatureSpan"></span>gulp-clean
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-clean = function (options) {
+  return through2.obj(function (file, enc, cb) {
+    // Paths are resolved by gulp
+    var filepath = file.path;
+    var cwd = file.cwd;
+    var relative = path.relative(cwd, filepath);
+
+    // Prevent mistakes with paths
+    if (!(relative.substr(0, 2) === &#x27;..&#x27;) &#x26;&#x26; relative !== &#x27;&#x27; || (options ? (options.force &#x26;&#x26; typeof options.force === &#x27;boolean&#x27;) :
+false)) {
+      rimraf(filepath, function (error) {
+        if (error) {
+          this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-clean&#x27;, &#x27;Unable to delete &#x22;&#x27; + filepath + &#x27;&#x22; file (&#x27; + error.message + &#x27;).&#x27;));
+        }
+        this.push(file);
+        cb();
+      }.bind(this));
+    } else if (relative === &#x27;&#x27;) {
+      var msgCurrent = &#x27;Cannot delete current working directory. (&#x27; + filepath + &#x27;). Use option force.&#x27;;
+      gutil.log(&#x27;gulp-clean: &#x27; + msgCurrent);
+      this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-clean&#x27;, msgCurrent));
+      this.push(file);
+      cb();
+    } else {
+      var msgOutside = &#x27;Cannot delete files outside the current working directory. (&#x27; + filepath + &#x27;). Use option force.&#x27;;
+      gutil.log(&#x27;gulp-clean: &#x27; + msgOutside);
+      this.emit(&#x27;error&#x27;, new gutil.PluginError(&#x27;gulp-clean&#x27;, msgOutside));
+      this.push(file);
+      cb();
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-clean.toString" id="apidoc.element.gulp-clean.toString">
+        function <span class="apidocSignatureSpan">gulp-clean.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.gulp-clean.toString" id="apidoc.module.gulp-clean.toString">module gulp-clean.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-clean.toString.toString" id="apidoc.element.gulp-clean.toString.toString">
+        function <span class="apidocSignatureSpan">gulp-clean.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
