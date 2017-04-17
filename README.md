@@ -1,9 +1,11 @@
 # api documentation for  [gulp-clean (v0.3.2)](https://github.com/peter-vilja/gulp-clean)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean)
 #### A gulp plugin for removing files and folders.
 
-[![NPM](https://nodei.co/npm/gulp-clean.png?downloads=true)](https://www.npmjs.com/package/gulp-clean)
+[![NPM](https://nodei.co/npm/gulp-clean.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-clean)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-clean_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-clean/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-clean/build/screenCapture.npmPackageListing.svg)
 
@@ -53,13 +55,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "petervilja",
-            "email": "peter.vilja@gmail.com"
+            "name": "petervilja"
         }
     ],
     "name": "gulp-clean",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/peter-vilja/gulp-clean.git"
@@ -70,16 +70,6 @@
     "version": "0.3.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-clean](#apidoc.module.gulp-clean)
-
-
-
-# <a name="apidoc.module.gulp-clean"></a>[module gulp-clean](#apidoc.module.gulp-clean)
 
 
 
