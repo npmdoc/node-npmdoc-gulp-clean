@@ -1,4 +1,7 @@
-# api documentation for  [gulp-clean (v0.3.2)](https://github.com/peter-vilja/gulp-clean)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean)
+# npmdoc-gulp-clean
+
+#### basic api documentation for  [gulp-clean (v0.3.2)](https://github.com/peter-vilja/gulp-clean)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-clean.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-clean) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-clean.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-clean)
+
 #### A gulp plugin for removing files and folders.
 
 [![NPM](https://nodei.co/npm/gulp-clean.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-clean)
@@ -67,7 +70,8 @@
     "scripts": {
         "test": "mocha test.js"
     },
-    "version": "0.3.2"
+    "version": "0.3.2",
+    "bin": {}
 }
 ```
 
